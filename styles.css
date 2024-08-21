@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-image: url(./imagenes/biblioteca.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+.card h1 {
+    font-family: 'Courgette', cursive;
+}
+#cita {
+    font-size: 20px;
+}
+#autor {
+    font-family: 'Courgette', cursive;
+}
+button {
+    background-color: #2850d1 ;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
